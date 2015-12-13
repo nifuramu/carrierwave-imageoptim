@@ -14,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install carrierwave-image_optim
+    $ gem install carrierwave-imageoptim
 
 ## Usage
 To add image optimization to your CarrierWave uploader, first include the module:
