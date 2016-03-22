@@ -16,6 +16,8 @@ module CarrierWave
       pngout: false,
       pngquant: false,
       svgo: false,
+      jpegoptim: { max_quality: 75 },
+      optipng: { level: 4 }
     }.freeze
 
     def optimize(options = {})
