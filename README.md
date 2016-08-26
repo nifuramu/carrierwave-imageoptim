@@ -21,7 +21,7 @@ To add image optimization to your CarrierWave uploader, first include the module
 
 ```ruby
 class MyUploader < CarrierWave::Uploader::Base
-  include CarrierWave::ImageOptimizer
+  include CarrierWave::ImageOptim
   ...
 end
 ```
@@ -30,7 +30,7 @@ Then apply to all versions via:
 
 ```ruby
 class MyUploader < CarrierWave::Uploader::Base
-  include CarrierWave::ImageOptimizer
+  include CarrierWave::ImageOptim
 
   process optimize: [{
     jpegoptim: true,
@@ -44,7 +44,7 @@ Or to a single image version via:
 
 ```ruby
 class MyUploader < CarrierWave::Uploader::Base
-  include CarrierWave::ImageOptimizer
+  include CarrierWave::ImageOptim
 
   version :thumbnail do
     process optimize: [{
