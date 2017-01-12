@@ -1,4 +1,5 @@
-# Carrierwave ImageOptim
+# Carrierwave ImageOptim [![Gem Version](https://badge.fury.io/rb/carrierwave-imageoptim.svg)](http://badge.fury.io/rb/carrierwave-imageoptim) [![Dependency Status](https://gemnasium.com/badges/github.com/nifuramu/carrierwave-imageoptim.svg)](https://gemnasium.com/github.com/nifuramu/carrierwave-imageoptim) [![Code Climate](https://codeclimate.com/github/nifuramu/carrierwave-imageoptim/badges/gpa.svg)](https://codeclimate.com/github/nifuramu/carrierwave-imageoptim)
+
 This gem allows you to optimize [CarrierWave](https://github.com/carrierwaveuploader/carrierwave) images using the [image_optim](https://github.com/toy/image_optim) gem.
 
 ## Installation
