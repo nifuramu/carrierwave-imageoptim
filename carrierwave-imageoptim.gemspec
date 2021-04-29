@@ -19,10 +19,10 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "carrierwave", ">= 0.10", "< 1.3"
+  spec.add_dependency "carrierwave", ">= 0.10", "< 3.0"
   spec.add_runtime_dependency 'image_optim', '~> 0.22'
 
-  spec.add_development_dependency "bundler", "~> 1.13"
+  spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 12.0"
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "mini_magick", ">= 3.6.0"
